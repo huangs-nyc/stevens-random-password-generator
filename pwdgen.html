@@ -11,8 +11,9 @@
             <h1>PASSWORD GENERATOR</h1>
             <label for="password">YOUR PASSWORD: </label>
             <input type="text" id="password" name="password" placeholder="CLICK GENERATE PASSWORD">
-            <button onclick="generate()">GENERATE PASSWORD</button>
-            <button onclick="copy()">COPY</button>
+            <button id="generate-btn" onclick="generate()">GENERATE PASSWORD</button>
+            <button id="copy-btn" onclick="copy()">COPY</button>
+            <button id="clear-btn" onclick="clearField()">CLEAR PASSWORD</button>
         </div>
         <script src="pwdgen.js"></script>
     </body>

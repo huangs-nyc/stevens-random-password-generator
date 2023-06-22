@@ -29,6 +29,7 @@ label {
 
 input {
     margin-top: 20px;
+    margin-bottom: 10px;
     width: 200px;
     height: 50px;
     text-align: center;
@@ -46,7 +47,7 @@ input::placeholder {
 
 button {
     
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #2bb52e;
     width: 180px;
     height: 25px;
@@ -58,4 +59,12 @@ button {
     color: white;
     text-shadow: 0 0 2px #4A4E53;
     font-size: 15px;
+}
+
+button:hover {
+    background-color: forestgreen;
+}
+
+button:active {
+    background-color: #2bb52e;
 }
